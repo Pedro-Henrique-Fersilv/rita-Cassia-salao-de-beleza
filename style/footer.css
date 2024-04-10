@@ -1,0 +1,35 @@
+footer {
+    color: rgba(255, 255, 255, 0.808);
+    background-color: rgb(43, 34, 34);
+}
+
+#local {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#map {
+    width: 30%;
+    height: 200px;
+}
+
+#contact {
+    align-self: center;
+    padding-left: 50px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#copyright {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
