@@ -1,0 +1,226 @@
+@media (max-width: 536px) {
+    header {
+        align-items: center;
+        width: auto;
+        border-bottom: solid 3px rgb(240, 238, 238);
+        padding: 21px;
+    }
+
+    #menu {
+        height: 70px;
+        margin: 0px;
+        justify-content:center;
+    }
+
+    #logo {
+        width: 70px;
+        height: 70px;
+        margin: 0px;
+    }
+
+    #menu nav {
+        align-self: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #bar-navigation {
+        width: 100%;
+        text-align: center;
+    }
+
+    #instagram {
+        padding-left: 10px;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+
+    #instagram img {
+        height: 15px;
+    }
+
+    .bar-link {
+        padding: 10px;
+    }
+
+    .bar-link:hover {
+        color: rgb(0, 0, 0);
+        transform: translateY(0px);
+    }
+    
+    .bar-link::after {
+        display: none;
+    }
+    
+    .bar-link:hover::after {
+        display: none;
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+/*----------------general----------------*/
+    /*----------------first page----------------*/
+
+    .first_page {
+        align-self: normal;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .setence {
+        display: flex;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 30%;
+        z-index: auto;
+        align-items: center;
+        text-align: center;
+    
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    #exampleimg {
+        display: none;
+    }
+
+    .example {
+        position: relative;
+        display: flex;
+        order: 2;
+        width: 100%;
+        height: 300px;
+        top: 0px;
+        left: auto;
+    }
+
+    #exampleimg-cut {
+        display: flex;
+        object-fit: cover;
+        object-position: center;
+
+        width: 100%;
+        min-height: auto;
+        min-width: auto;
+        max-width: auto;
+        max-height: auto;
+        border: none;
+    }
+    
+    .scheduling {
+        display: flex;
+        order: 3;
+        width: 100%;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scheduling> a {
+        display: inline-block;
+        width: 180px;
+        font-size: 20px;
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .scheduling> a:hover {
+        width: 180px;
+        font-size: 20px;
+    }
+
+    /*----------------about----------------*/
+    
+    #about {
+        font-size: 15px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #imgsalon {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    
+    #imgsalon img {
+        width: 80%;
+        max-width: auto;
+        max-height: auto;
+    }
+    
+    .about-text {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    /*----------------salao----------------*/
+
+    #salao {
+        height: auto;
+        font-size: 50px;
+    }
+    
+    #pictures {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+
+    #pictures img {
+        height: 170px;
+        width: 130px;
+        margin: 20px;
+
+        border: solid 3px rgb(255, 255, 255);
+    }
+    
+    /*----------------services----------------*/
+
+    #services {
+        height: auto;
+        font-size: 18px;
+    }
+    
+    #services-space {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #services-space > div {
+        margin: 60px;
+        width: 300px;
+    }
+
+    #services-space h3 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #services-space ul {
+        padding-bottom: 10px;
+    }
+
+/*----------------footer----------------*/
+
+#contact {
+    align-self: center;
+    padding-left: 0px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 35px;
+}
+
+}
