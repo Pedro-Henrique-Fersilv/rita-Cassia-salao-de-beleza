@@ -166,6 +166,7 @@
 
     #salao {
         height: auto;
+        font-size: 50px;
     }
     
     #pictures {
@@ -179,8 +180,8 @@
     
 
     #pictures img {
-        height: 220px;
-        width: 150px;
+        height: 180px;
+        width: 110px;
         margin: 20px;
         border: solid 3px rgb(255, 255, 255);
     }
