@@ -69,6 +69,24 @@
         padding-bottom: 20px;
     }
 
+    /*----------------salao----------------*/
+
+    #salao {
+        height: auto;
+    }
+
+    #pictures {
+        padding-bottom: 80px;
+    }
+    
+
+    #pictures img {
+        height: 220px;
+        width: 150px;
+        border: solid 3px rgb(255, 255, 255);
+    }
+
+
     /*----------------services----------------*/    
 
     #services {

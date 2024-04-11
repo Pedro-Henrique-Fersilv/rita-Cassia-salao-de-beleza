@@ -51,6 +51,14 @@
         padding-bottom: 20px;
     }
 
+     /*----------------salao----------------*/
+    
+    #pictures img {
+        height: 270px;
+        width: 200px;
+        border: solid 3px rgb(255, 255, 255);
+    }
+
      /*----------------services----------------*/    
 
      #services {

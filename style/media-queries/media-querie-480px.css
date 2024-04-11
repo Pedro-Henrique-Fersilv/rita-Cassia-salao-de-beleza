@@ -161,6 +161,29 @@
         width: 80%;
         padding-bottom: 30px;
     }
+
+    /*----------------salao----------------*/
+
+    #salao {
+        height: auto;
+    }
+    
+    #pictures {
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+
+    #pictures img {
+        height: 220px;
+        width: 150px;
+        margin: 20px;
+        border: solid 3px rgb(255, 255, 255);
+    }
     
     /*----------------services----------------*/
 
