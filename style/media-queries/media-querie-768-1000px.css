@@ -6,7 +6,6 @@
         padding-top: 40px;
         padding-left: 40px;
         max-width: 60%;
-        overflow: hidden;
 
         background-color: rgb(255, 255, 255);
         font-size: 45px;
@@ -41,6 +40,7 @@
         min-width: 418px;
         max-width: 517px;
         max-height: 618px;
+
         border: solid 5px rgb(240, 238, 238);
     }
 
@@ -55,6 +55,7 @@
         padding-left: 15px;
         padding-right: 15px;
         width: 50%;
+
         text-align: center;
     }
     
@@ -81,8 +82,9 @@
     
 
     #pictures img {
-        height: 210px;
+        height: 250px;
         width: 150px;
+
         border: solid 3px rgb(255, 255, 255);
     }
 

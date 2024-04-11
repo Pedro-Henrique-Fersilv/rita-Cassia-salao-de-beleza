@@ -180,9 +180,10 @@
     
 
     #pictures img {
-        height: 170px;
+        height: 210px;
         width: 110px;
         margin: 20px;
+
         border: solid 3px rgb(255, 255, 255);
     }
     
@@ -219,7 +220,6 @@
     padding-left: 0px;
     padding-top: 30px;
     text-align: center;
-
     line-height: 35px;
 }
 

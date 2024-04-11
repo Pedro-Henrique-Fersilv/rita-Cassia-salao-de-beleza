@@ -23,6 +23,7 @@
         min-width: 318px;
         max-width: 517px;
         max-height: 618px;
+
         border: solid 5px rgb(240, 238, 238);
     }
 
@@ -37,6 +38,7 @@
         padding-left: 15px;
         padding-right: 15px;
         width: 50%;
+
         text-align: center;
     }
     
@@ -54,8 +56,9 @@
      /*----------------salao----------------*/
     
     #pictures img {
-        height: 270px;
+        height: 300px;
         width: 200px;
+        
         border: solid 3px rgb(255, 255, 255);
     }
 

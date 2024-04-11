@@ -1,9 +1,10 @@
 @media (min-width: 536px) and (max-width: 767px) {
     header {
-        align-items: center;
         width: auto;
-        border-bottom: solid 3px rgb(240, 238, 238);
         padding: 25px;
+        align-items: center;
+
+        border-bottom: solid 3px rgb(240, 238, 238);
     }
 
     #menu {
@@ -177,9 +178,10 @@
     
 
     #pictures img {
-        height: 210px;
+        height: 250px;
         width: 150px;
         margin: 20px;
+        
         border: solid 3px rgb(255, 255, 255);
     }
 
