@@ -31,7 +31,7 @@
 
     #instagram {
         padding-left: 10px;
-        padding-right: 50px;
+        margin-right: 50px;
         font-size: 25px;
     }
 
@@ -41,6 +41,21 @@
 
     .bar-link {
         padding: 10px;
+    }
+
+    .bar-link:hover {
+        color: rgb(0, 0, 0);
+        transform: translateY(0px);
+    }
+    
+    .bar-link::after {
+        display: none;
+    }
+    
+    .bar-link:hover::after {
+        display: none;
+        transform: scaleX(1);
+        transform-origin: left;
     }
 
 /*----------------general----------------*/
@@ -113,6 +128,11 @@
         margin-left: 0px;
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+
+    .scheduling> a:hover {
+        width: 180px;
+        font-size: 20px;
     }
 
     /*----------------about----------------*/

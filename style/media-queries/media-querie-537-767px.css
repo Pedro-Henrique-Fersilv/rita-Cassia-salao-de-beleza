@@ -41,6 +41,21 @@
         padding: 10px;
     }
 
+    .bar-link:hover {
+        color: rgb(0, 0, 0);
+        transform: translateY(0px);
+    }
+    
+    .bar-link::after {
+        display: none;
+    }
+    
+    .bar-link:hover::after {
+        display: none;
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
 /*----------------general----------------*/
     /*----------------first page----------------*/
 
@@ -110,6 +125,11 @@
         margin-left: 0px;
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+
+    .scheduling> a:hover {
+        width: 180px;
+        font-size: 20px;
     }
 
      /*----------------about----------------*/
