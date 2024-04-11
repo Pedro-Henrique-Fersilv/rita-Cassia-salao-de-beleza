@@ -1,0 +1,199 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:target {
+    scroll-margin-top: 30px;
+}
+
+
+.first_page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 660px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+    background-color: rgb(240, 238, 238); 
+}
+
+.setence {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 60%;
+    z-index: 1;
+
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    font-size: 60px;
+    line-height: 110px;
+}
+
+.setence b {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.scheduling {
+    width: 55%;
+    align-self: center;
+    text-align: center;
+}
+
+.scheduling> a {
+    display: inline-block;
+    width: 350px;
+    font-size: 25px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+ 
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.scheduling> a:hover {
+    width: 360px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.example {
+    position: absolute;
+    width: 40%;
+    top: 120px;
+    left: 55%;
+}
+
+#exampleimg {
+    width: 100%;
+    min-height: 517px;
+    min-width: 618px;
+    max-width: 617px;
+    max-height: 718px;
+    border: solid 5px rgb(240, 238, 238);
+}
+
+#exampleimg-cut {
+    display: none;
+}
+
+#about {
+    display: flex;
+    height: 660px;
+
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(20, 20, 20);
+}
+
+#imgsalon {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+#imgsalon img {
+    max-width: 638px;
+    max-height: 359px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+@font-face {
+    font-family: salao;
+    src: url(font/Blacksword.otf)
+}
+
+#salao {
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-family: salao;
+    font-size: 80px;
+    color: black;
+    background-color: rgb(240, 238, 238);
+}
+
+#pictures {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+#pictures img {
+    height: 400px;
+    width: 300px;
+    border: solid 3px rgb(255, 255, 255);
+}
+
+#services {
+    display: flex;
+    height: 660px;
+    width: 100%;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
+}
+
+#services-space {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#services-space > div {
+    margin: 60px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 5px 15px;
+}
+
+#services-space h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#services-space ul {
+    padding-bottom: 15px;
+}
+
+#services img {
+    width: 300px;
+    height: 300px;
+
+    border-top-left-radius:  10px;
+    border-top-right-radius:  10px;
+}

@@ -1,0 +1,80 @@
+@media (min-width: 1001px) and (max-width: 1500px) {
+    
+/*----------------general----------------*/
+    /*----------------first page----------------*/
+
+    .setence {
+        padding-top: 40px;
+        padding-left: 40px;
+
+        font-size: 50px;
+        line-height: 100px;
+    }
+
+    .example {
+        position: absolute;
+        width: 45%;
+        top: 120px;
+        left: 50%;
+    }
+
+    #exampleimg {
+        min-height: 317px;
+        min-width: 318px;
+        max-width: 517px;
+        max-height: 618px;
+
+        border: solid 5px rgb(240, 238, 238);
+    }
+
+    /*----------------about----------------*/
+
+    #about {
+        font-size: 17px;
+        height: auto;
+    }
+    
+    #imgsalon {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 50%;
+
+        text-align: center;
+    }
+    
+    #imgsalon img {
+        max-width: 338px;
+        max-height: 259px;
+    }
+    
+    .about-text {
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+     /*----------------salao----------------*/
+    
+    #pictures img {
+        height: 300px;
+        width: 200px;
+        
+        border: solid 3px rgb(255, 255, 255);
+    }
+
+     /*----------------services----------------*/    
+
+     #services {
+        height: auto;
+    }
+
+    #services-space > div {
+        margin: 30px;
+        width: 200px;
+    }
+
+    #services img {
+        width: 200px;
+        height: 200px;
+    }
+}
